@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="page" >
+  <image class="background" src="../../images/background_test.jpeg"></image>
+  <view class="container">
+      <image class="uploadImage" src="{{userPhotoIndex}}" bindtap="bonusTap"></image>
+      <view class="chooseButtonContainer" >
+        <button class="chooseButton" style="width:200px;" bindtap="getLocalImg">上传头像</button>
+        <button class="navigationButton" style="width:200px;" bindtap="bindNavigationTap">开始制作新春头像</button>
+      </view>
+  </view>
+</view>
+

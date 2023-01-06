@@ -1,0 +1,25 @@
+<!--pages/avatar/avatar.wxml-->
+<view class="page" >
+  <image class="background" src="../../images/background_test.jpeg"></image>
+  <view class="container" >
+    <view class="canvasbox">
+      <image class="canvasBackground" src="{{userPhotoAvatar}}"></image>
+      <canvas id="avatar" type="2d" class="avatarcanvas" style="width:100%;height:100%;border-radius: 20rpx;"></canvas>
+    </view>
+    <view class="avatarBorderContainer" >
+      <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+        <view class="scroll-view-item_H"  wx:for="{{borderArr}}" wx:key="index">
+          <view style="  display: flex;flex-direction: column;">
+            <image class = "borderImage" src="{{item[0]}}" bindtap="drawBorder" data-url="{{item[0]}}"></image>
+            <image class = "borderImage" src="{{item[1]}}" bindtap="drawBorder" data-url="{{item[1]}}"></image>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <text class="tipInfo">> 滑动显示更多边框</text>
+    <view class="avatarButtonContainer" >
+        <button class="saveButton" style="width:120px;margin-right: 25px;" bindtap="saveSvatar">保存</button>
+        <button class="navigationButton" style="width:120px;margin-left: 25px;" bindtap="bindNavigationTap">返回</button>
+    </view>
+  </view>
+</view>
