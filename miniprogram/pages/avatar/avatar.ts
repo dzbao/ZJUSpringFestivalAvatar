@@ -11,39 +11,62 @@ Page({
    */
   data: {
     userPhotoAvatar: "",
-    currentBorder: "../../images/test1.png",
+    currentBorder: "../../images/border1-1.png",
     borderArr: [
       [ 
-        "../../images/test1.png",
-        "../../images/test2.png"
+        "../../images/border1-1.png",
+        "../../images/border1-2.png"
       ],
       [ 
-        "../../images/test3.png",
-        "../../images/test4.png"
+        "../../images/border2-1.png",
+        "../../images/border2-2.png"
       ],
       [ 
-        "../../images/test5.png",
-        "../../images/test6.png"
+        "../../images/border3-1.png",
+        "../../images/border3-2.png"
       ],
       [ 
-        "../../images/test7.png",
-        "../../images/test8.png"
+        "../../images/border4-1.png",
+        "../../images/border4-2.png"
       ],
       [ 
-        "../../images/test9.png",
-        "../../images/test10.png"
+        "../../images/border5-1.png",
+        "../../images/border5-2.png"
       ],
       [ 
-        "../../images/test11.png",
-        "../../images/test12.png"
+        "../../images/border6-1.png",
+        "../../images/border6-2.png"
       ],
       [ 
-        "../../images/test13.png",
-        "../../images/test14.png"
+        "../../images/border6-3.png",
+        "../../images/border6-4.png"
       ],
       [ 
-        "../../images/test15.png",
-        "../../images/test16.png"
+        "../../images/border7-1.png",
+        "../../images/border7-2.png"
+      ],
+      [ 
+        "../../images/border8-1.png",
+        "../../images/border8-2.png"
+      ],
+      [ 
+        "../../images/border9-1.png",
+        "../../images/border9-2.png"
+      ],
+      [ 
+        "../../images/border10-1.png",
+        "../../images/border10-2.png"
+      ],
+      [ 
+        "../../images/border11-1.png",
+        "../../images/border11-2.png"
+      ],[ 
+        "../../images/border12-1.png",
+        "../../images/border12-2.png"
+      ],
+      [ 
+        "../../images/border12-3.png",
+        ""
       ],
     ]
   },
@@ -92,7 +115,10 @@ Page({
   },
 
   drawBorder: function(e:any) {
-    let borderUrl = e.currentTarget.dataset.url
+    let borderUrl = e.currentTarget.dataset.url;
+    if(borderUrl.length == 0) {
+      return;
+    }
     this.setData({
       currentBorder: borderUrl
     })

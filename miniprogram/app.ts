@@ -2,7 +2,7 @@
 App({
   globalData: {
     userPhoto: '../../images/camera.jpg',
-    hasUserPhoto: false
+    hasUserPhoto: false,
   },
 
   setUserPhoto(url:string) {

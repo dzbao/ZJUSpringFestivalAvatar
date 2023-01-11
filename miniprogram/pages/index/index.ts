@@ -1,6 +1,6 @@
 // index.ts
 // 获取应用实例
-const appIndex = getApp()
+const appIndex = getApp();
 
 Page({
   data: {
@@ -9,23 +9,65 @@ Page({
     bonus: 10,
     bonusText: [
       {
-        title: '兔飞猛进',
-        content: '新春大吉，国泰民安',
+        title: '大展鸿兔',
+        content: '万事如意，阖家安康',
         confirmText: '收到！',
-        cancelText: '好耶！'
+        cancelText: '必须滴！'
       },
       {
         title: '扬眉兔气',
-        content: '平安喜乐，诸事皆宜',
-        confirmText: '收到！',
+        content: '恭贺新禧，万事大吉',
+        confirmText: '撒花！',
         cancelText: '好耶！'
       },
       {
-        title: '大展鸿兔',
-        content: '恭贺新禧，求是创新',
-        confirmText: '收到！',
-        cancelText: '好耶！'
-      }
+        title: '前兔似锦',
+        content: '兔年大吉，步步高升',
+        confirmText: '确认查收！',
+        cancelText: '收下祝福！'
+      },
+      {
+        title: '奋发兔强',
+        content: '学业有成，万事顺遂',
+        confirmText: '妥妥滴！',
+        cancelText: '收到啦！'
+      },
+      {
+        title: '兔必NO.1',
+        content: '踔厉奋发，勇攀高峰',
+        confirmText: '加油！',
+        cancelText: '冲呀！'
+      },
+      {
+        title: '兔飞猛进',
+        content: '岁岁平安，大吉大利',
+        confirmText: '当然啦！',
+        cancelText: '一定会！'
+      },
+      {
+        title: '谈兔不凡',
+        content: '笑口常开，好运连连',
+        confirmText: '谢谢！',
+        cancelText: '同乐！'
+      },
+      {
+        title: '兔个好运',
+        content: '福星高照，财运亨通',
+        confirmText: '新年好！',
+        cancelText: '拜年啦！'
+      },
+      {
+        title: '兔步青云',
+        content: '一帆风顺，十全十美',
+        confirmText: '好哒！',
+        cancelText: '安排！'
+      },
+      {
+        title: '好事成兔',
+        content: '顺其自然，心想事成',
+        confirmText: '收下祝福！',
+        cancelText: '愿望成真！'
+      },
     ]
   },
 
@@ -75,13 +117,13 @@ Page({
           }
         )
         // pc端调试注释掉crop代码，用这段
-        // var tempFilePaths = res.tempFiles[0].tempFilePath
-        // appIndex.setUserPhoto(tempFilePaths)
-        // appIndex.setHasUserPhoto(true)
-        // this.setData({
-        //   userPhotoIndex: tempFilePaths,
-        //   hasUserPhoto: true
-        // })
+        /* var tempFilePaths = res.tempFiles[0].tempFilePath
+         appIndex.setUserPhoto(tempFilePaths)
+         appIndex.setHasUserPhoto(true)
+         this.setData({
+           userPhotoIndex: tempFilePaths,
+           hasUserPhoto: true
+         })*/
         
       }
     })

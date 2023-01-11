@@ -1,6 +1,6 @@
 <!--index.wxml-->
-<view class="page" >
-  <image class="background" src="../../images/background_test.jpeg"></image>
+<view class="page">
+  <image class="background" src="../../images/background.jpg"></image>
   <view class="container">
       <image class="uploadImage" src="{{userPhotoIndex}}" bindtap="bonusTap"></image>
       <view class="chooseButtonContainer" >
@@ -8,5 +8,6 @@
         <button class="navigationButton" style="width:200px;" bindtap="bindNavigationTap">开始制作新春头像</button>
       </view>
   </view>
+  <image class="zjuLogo" src="../../images/zju.png"></image>
 </view>
 

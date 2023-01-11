@@ -2,7 +2,7 @@
 .background {
   position: absolute;
   left: 0;
-  bottom: 0;
+  top: 0;
   display: block;
   width: 100%;
   height: 100%;
@@ -38,8 +38,7 @@
 
 .avatarBorderContainer {
   width: 100%;
-  background-color: #dfcbcb;
-  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .scroll-view_H{
@@ -58,29 +57,44 @@
 }
 
 .tipInfo {
-  color:white;
+  color:#b01f24;
+  background-color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
   font-size: small;
-  float: right;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  padding-right: 15px;
 }
 
 .avatarButtonContainer {
   display: flex;
+  margin-top: 10px;
 }
 
 .saveButton {
   margin:15px;
   font-weight: 400;
   border-radius: 20px;
-  background: #ffffff;
-  color: #e28787;
-  border:1px solid #995f5f;  
+  background: #b01f24;
+  color: #ffffff;
 }
 
 .navigationButton {
   margin:15px;
   font-weight: 400;
   border-radius: 20px;
-  background: #e28787;
-  color: #ffffff;
+  background: #ffffff;
+  color: #b01f24;
+  border:1px solid #995f5f;  
+}
+
+.zjuLogo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 85%;
+  z-index: -666;
 }
