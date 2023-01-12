@@ -18,6 +18,14 @@ Page({
         "../../images/border1-2.png"
       ],
       [ 
+        "../../images/border1-3.png",
+        "../../images/border1-4.png"
+      ],
+      [ 
+        "../../images/border1-5.png",
+        "../../images/border1-6.png"
+      ],
+      [ 
         "../../images/border2-1.png",
         "../../images/border2-2.png"
       ],
@@ -34,12 +42,12 @@ Page({
         "../../images/border5-2.png"
       ],
       [ 
-        "../../images/border6-1.png",
-        "../../images/border6-2.png"
+        "../../images/border5-3.png",
+        "../../images/border5-4.png"
       ],
       [ 
-        "../../images/border6-3.png",
-        "../../images/border6-4.png"
+        "../../images/border6-1.png",
+        "../../images/border6-2.png"
       ],
       [ 
         "../../images/border7-1.png",
@@ -63,10 +71,6 @@ Page({
       ],[ 
         "../../images/border12-1.png",
         "../../images/border12-2.png"
-      ],
-      [ 
-        "../../images/border12-3.png",
-        ""
       ],
     ]
   },
