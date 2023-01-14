@@ -9,7 +9,7 @@ Page({
     bonus: 10,
     bonusText: [
       {
-        title: '大展鸿兔',
+        title: '大展宏兔',
         content: '万事如意，阖家安康',
         confirmText: '收到！',
         cancelText: '必须滴！'
