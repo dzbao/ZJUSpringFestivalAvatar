@@ -11,7 +11,7 @@ Page({
       {
         title: '大展宏兔',
         content: '万事如意，阖家安康',
-        confirmText: '收到！',
+        confirmText: '收到啦！',
         cancelText: '必须滴！'
       },
       {
@@ -23,8 +23,8 @@ Page({
       {
         title: '前兔似锦',
         content: '兔年大吉，步步高升',
-        confirmText: '确认查收！',
-        cancelText: '收下祝福！'
+        confirmText: '好滴！',
+        cancelText: '收到！'
       },
       {
         title: '奋发兔强',
@@ -65,10 +65,11 @@ Page({
       {
         title: '好事成兔',
         content: '顺其自然，心想事成',
-        confirmText: '收下祝福！',
-        cancelText: '愿望成真！'
+        confirmText: '收到啦！',
+        cancelText: '当然啦！'
       },
-    ]
+    ],
+    
   },
 
   bindNavigationTap() {
@@ -153,6 +154,7 @@ Page({
         cancelText: randItem.cancelText,
         cancelColor: '#995f5f',
       })
+      console.log("here")
     }
   }
 })
