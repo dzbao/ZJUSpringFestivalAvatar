@@ -1,6 +1,6 @@
 <!--pages/avatar/avatar.wxml-->
 <view class="page" >
-  <image class="background" src="../../images/background_test.jpeg"></image>
+  <image class="background" src="../../images/background.jpg"></image>
   <view class="container" >
     <view class="canvasbox">
       <image class="canvasBackground" src="{{userPhotoAvatar}}"></image>
@@ -16,10 +16,15 @@
         </view>
       </scroll-view>
     </view>
-    <text class="tipInfo">> 滑动显示更多边框</text>
+    <view class="tipInfo">
+      <view>
+        <text>>>> 滑动显示更多边框</text>
+      </view>
+    </view>
     <view class="avatarButtonContainer" >
-        <button class="saveButton" style="width:120px;margin-right: 25px;" bindtap="saveSvatar">保存</button>
-        <button class="navigationButton" style="width:120px;margin-left: 25px;" bindtap="bindNavigationTap">返回</button>
+      <button class="navigationButton" style="width:120px;margin-right: 25px;" bindtap="bindNavigationTap">返回</button>
+        <button class="saveButton" style="width:120px;margin-left: 25px;" bindtap="saveSvatar">保存</button>
     </view>
   </view>
+  <image class="zjuLogo" src="../../images/zju.png"></image>
 </view>

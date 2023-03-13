@@ -2,8 +2,8 @@
 .background {
   position: absolute;
   left: 0;
-  bottom: 0;
-  display: block;
+  top: 0;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   z-index: -999;
@@ -11,10 +11,10 @@
 
 .uploadImage {
   margin-top: 20%;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 30rpx;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 .chooseButton {
@@ -22,7 +22,7 @@
   font-weight: 400;
   border-radius: 20px;
   background: #ffffff;
-  color: #e28787;
+  color: #b01f24;
   border:1px solid #995f5f;  
 }
 
@@ -30,7 +30,16 @@
   margin-top: 40px;
   font-weight: 400;
   border-radius: 20px;
-  background: #e28787;
+  background: #b01f24;
   color: #ffffff;
+}
+
+.zjuLogo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 85%;
+  z-index: -666;
 }
 
